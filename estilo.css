@@ -1,0 +1,133 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;/*controla ancho y alto de un elemento*/
+}
+main{
+    margin: auto;
+    width: 800px;
+    padding: 20px;
+    max-width: 1200px;
+}
+body{
+    margin: 20px;
+    border-bottom: 1px solid grey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+#contenedor{ /**contenedor tiene id**/
+    width: 90%;
+    margin: 10px auto; /**espacio para los 4 lado y auto es centrado**/
+    padding: 10px; /*borde interno, el margin es externo*/
+    /**border: 1px solid red;**/
+    background-image: url(img/fondo.jpg);
+    border: 2px dotted grey;
+
+}
+#cabecera{
+    height: 150px;
+    padding: 5px;
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /**border: 1px solid blue;**/
+}
+#cabecera img{
+    height: 100%;
+    margin: 10px;
+    width: 120px;
+    border-radius: 50%;
+}
+#titulo{
+    padding: 10px;
+    color: #07B0F2;
+    background-color: white;
+    text-shadow: 4px 8px 8px grey;
+}
+/**#contenido{
+    border: 1px solid orangered;
+}**/
+.info h5{
+    text-align: right;
+    background-color: white;
+    margin: 10px;
+    font-style: italic;
+    margin-bottom: 20px;
+    margin-left: 73%;
+}
+.info h2{
+    text-decoration: underline;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+#seccion{
+    border: 3px solid black;
+    padding: 10px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+.tarjetas{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+.tarjeta {
+    border: 2px solid grey;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: beige;
+    flex: 1;
+}
+
+.tarjeta h3 {
+    margin-bottom: 10px;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+}
+.tarjeta.html{
+    background-color: #F2EDEC;
+}
+.tarjeta.html h3{
+    background: #E44A24;
+}
+.tarjeta.css{
+    background-color: #E6EBEE;
+}
+.tarjeta.css h3{
+    background: #0070BA;
+}
+.tarjeta.js{
+    background-color: #E8EDE0;
+}
+.tarjeta.js h3{
+    background: #63A714;
+}
+.tarjeta img{
+    width:30%;
+    display:block;
+    margin: 10px auto;
+}
+#casa{
+    width: 50%;
+    display: block;
+    margin: 20px auto;
+    margin-bottom: 20px;
+    box-shadow: 15px 18px 10px gray;
+}
+#resumen{
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px black;
+}
